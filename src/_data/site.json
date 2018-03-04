@@ -1,0 +1,7 @@
+{
+  "name": "template",
+  "description": "template_site",
+  "keywords": "template, site",
+  "rootUrl": "http://example.com/",
+  "ogpImage": "http://example.com/images/og-image.jpg"
+}

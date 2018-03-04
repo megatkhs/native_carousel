@@ -1,0 +1,18 @@
+extend /_includes/_layout
+append variables
+  //- 必須
+  - var pageTitle = ''
+  - var pageDescription = site.discription
+  - var pageKeywords = site.keywords
+  //- 任意
+  - var pageOgpTitle = ''
+  - var pageOgpImage = site.ogpImage
+  - var pageLang = 'ja'
+  - var pageOgpType = 'website'
+  //- 変更不可
+  - var pageUrl = relativePath
+
+block content
+  // コンテンツ
+  p Contents
+  // /コンテンツ
